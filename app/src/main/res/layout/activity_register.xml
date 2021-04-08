@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:text="register"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/inpRegisterNama"
+            android:hint="nama"
+            android:layout_margin="15sp"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/inpRegisterUsername"
+            android:hint="username"
+            android:layout_margin="15sp"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAutofill="no" />
+
+
+        <EditText
+            android:id="@+id/inpRegisterPassword"
+            android:hint="password"
+            android:layout_margin="15sp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btnRegister2"
+            android:layout_margin="30sp"
+            android:layout_gravity="bottom|center"
+            android:text="register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnLogin2"
+            android:layout_margin="30sp"
+            android:layout_gravity="bottom|center"
+            android:text="login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
