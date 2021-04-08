@@ -1,4 +1,4 @@
-// 7-April-2021, 10118379, Luthfy Karliandi Nugraha, IF-9
+// 7-April-2021, 10118379,Luthfy Karliandi Nugraha,IF-9
 package com.example.tugas1_akb;
 
 import androidx.appcompat.app.AppCompatActivity;
